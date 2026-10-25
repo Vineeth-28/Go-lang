@@ -1,71 +1,93 @@
 # Go Language
 
-🚀 My journey learning Go (Golang). This repository is a growing collection of code snippets, exercises, small projects, and notes as I learn Go's syntax, core concepts, and concurrency.
+🚀 A hands-on Go learning repository covering the basics through small working examples.
 
-## About
+This project contains small Go programs organized by topic so I can practice syntax, core concepts, and problem-solving in a simple, repeatable way.
 
-The goal of this project is to learn Go by writing and running code. It serves as a personal reference for concepts I have explored, examples I have tried, and ideas I want to develop further.
+## Overview
 
-Go is a statically typed, compiled language known for its straightforward syntax, built-in tooling, and support for concurrent programming. This repository follows a hands-on approach: learn a concept, try it in code, and build on it with more practice.
+The goal of this repository is to build a solid understanding of Go by writing and running real code. Each folder focuses on one concept, using small example programs that are easy to run and extend.
 
-## Learning goals
+The repo currently includes examples for:
 
-As I continue learning, I aim to:
+- Hello world and basic output
+- Variables, constants, and values
+- For loops and conditionals
+- Switch statements
+- Arrays and slices
+- Maps and ranges
+- Functions and variadic functions
+- Closures and pointers
+- Structs and struct composition
 
-- Understand Go's syntax, types, and conventions.
-- Write clear programs using functions, control flow, and Go's standard library.
-- Practice working with collections, structs, methods, and interfaces.
-- Learn how to organize, test, and build Go programs.
-- Explore goroutines, channels, and other concurrency patterns.
-- Apply these concepts in exercises and small projects.
+## Repository structure
 
-## Topics
-
-The learning journey includes foundational Go concepts such as:
-
-- Getting started with Go and writing simple programs
-- Values, variables, and constants
-- Conditions, loops, and branching
-- Functions and error handling
-- Arrays, slices, and maps
-- Structs, methods, and interfaces
-- Packages, modules, and the standard library
-- Testing and debugging
-- Concurrency with goroutines and channels
-
-Topics will be explored over time as the repository grows. The list describes learning goals and does not imply that every topic is already covered.
+```text
+Go Language/
+├── 1_hello_world/
+├── 2_Simple_values/
+├── 3_Variables/
+├── 4_Constants/
+├── 5_For_Loop/
+├── 6_if_Else/
+├── 07_Switch/
+├── 8_Arrays/
+├── 9_Slices/
+├── 10_Maps/
+├── 11_Range/
+├── 12_Functions/
+├── 13_Variadic_Function/
+├── 14_Closures/
+├── 15_Pointers/
+├── 16_Struct/
+└── README.md
+```
 
 ## Getting started
 
-Install Go by following the instructions at [go.dev/dl](https://go.dev/dl/), then confirm that it is available in your terminal:
+Install Go from [go.dev/dl](https://go.dev/dl/) and verify the installation:
 
 ```sh
 go version
 ```
 
-To try an individual Go program, run it with the Go command:
+To run any example, change into the topic folder and execute the program:
+
+```sh
+cd 1_hello_world
+go run main.go
+```
+
+You can also run a file directly from another directory:
 
 ```sh
 go run path/to/program.go
 ```
 
-Replace `path/to/program.go` with the location of the program you want to run. Go's official [Getting Started guide](https://go.dev/doc/tutorial/getting-started) is a helpful resource for setting up a project and learning the basics.
+## Learning goals
 
-## How I use this repository
+- Learn Go syntax and standard conventions
+- Work with variables, values, loops, and conditions
+- Understand data structures like arrays, slices, and maps
+- Practice functions, closures, and pointers
+- Explore structs and object-like data modeling
+- Build confidence with writing small runnable Go programs
 
-1. Choose a concept to learn or review.
-2. Read and run a related example.
-3. Change the code to test my understanding.
-4. Write a small exercise or project using the concept.
-5. Add notes or improvements as I learn more.
+## How to use this repository
+
+1. Pick a topic folder matching the concept you want to learn.
+2. Read the code in that folder.
+3. Run it locally with `go run`.
+4. Modify the example to experiment with behavior.
+5. Keep building on the concept with a new example or small variation.
 
 ## Progress
 
-This is a work in progress and reflects an ongoing learning process. Examples may be expanded, corrected, or reorganized as my understanding of Go develops. Concurrency and small practical projects are part of the longer-term learning journey.
+This repository is a work in progress and reflects a beginner-to-intermediate learning journey in Go. The examples are intended to be simple, understandable, and easy to revisit as knowledge grows.
 
-## Resources
+## Useful resources
 
-- [The Go Programming Language](https://go.dev/)
+- [Go official site](https://go.dev/)
 - [A Tour of Go](https://go.dev/tour/)
 - [Go documentation](https://go.dev/doc/)
 - [Effective Go](https://go.dev/doc/effective_go)
